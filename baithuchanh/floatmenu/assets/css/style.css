@@ -1,0 +1,40 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.main-body {
+    width: 1000px;
+    margin: 0 auto;
+}
+header .header1 {
+    background: gray;
+    font-size: 30px;
+    text-align: center;
+    padding: 30px 0;
+}
+header .main-nav .main-menu {
+    list-style: none;
+    background: #7879ff;
+    margin: 0;
+    padding: 0;
+}
+header .main-nav .main-menu li {
+    background: #4f5dff;
+    float: left;
+}
+header .main-nav .main-menu li a {
+    color: white;
+    font-size: 14px;
+    display: block;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+header .main-nav .main-menu li:hover a {
+    background: darkblue;
+}
